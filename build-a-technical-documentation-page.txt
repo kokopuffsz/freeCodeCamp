@@ -1,0 +1,213 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Technical Doc</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <nav id="navbar">
+      <header>Jump To:</header>
+      <ol>
+        <li>
+          <a class="nav-link" href="#Welcome">Welcome</a>
+        </li>
+        <li>
+          <a class="nav-link" href="#Kindness">Kindness</a>
+        </li>
+        <li>
+          <a class="nav-link" href="#Understanding">Understanding</a>
+        </li>
+        <li>
+          <a class="nav-link" href="#Perspective">Perspective</a>
+        </li>
+        <li>
+          <a class="nav-link" href="#Appreciation">Appreciation</a>
+        </li>
+      </ol>
+    </nav>
+    <main id="main-doc">
+      <section class="main-section" id="Welcome">
+        <header><strong>Welcome</strong></header>
+        <article>
+          <p>Oh, hi there! Looks like I might have grabbed your attention. What are we doing here, you ask? Well, it seems like there may be some people who have forgotten basics and I want to go over a few of them. Let's dive in on <strong>"How To Human"</strong> - does that interest you? These are going to be some general rules that should be implemented into daily life, so let's begin!</p>
+          <p>Some of the topics we will go over will include:</p>
+          <ul>
+            <li><i>Kindness</i></li>
+            <li><i>Understanding</i></li>
+            <li><i>Perspective</i></li>
+            <li><i>Appreciation</i></li>
+            <li>That's all!</li>
+          </ul>
+          <p>I'll give you the answer:</p>
+          <code>Kindness + Understanding + Perspective + Appreciation = Good Human</code>
+        </article>
+      </section>
+      <section class="main-section" id="Kindness">
+        <header><strong>Kindness</strong></header>
+        <article>
+          <p>What is kindness? The definition is the quality of being friendly, generous, and considerate. Pretty straight-forward, or so you would think. It's crazy to believe that this isn't a given, but the world is crazy sometimes.</p>
+          <p>Who does it benefit to be rude? Does it give any type of pleasure in doing so? Well, if yes, I believe there may be something deep-rooted to cause this. Why must someone go as far as to try and destroy someone else's mood? As the saying goes, "it takes nothing to be kind."</p>
+          <code>Thoughtfulness + Consideration = Kindness</code>
+          <p>"Everyone you meet is fighting a battle you know nothing about. Be kind, always." - Robin Williams. Which concludes our portion on kindness and brings us to our next topic:</p>
+        </article>
+      </section>
+      <section class="main-section" id="Understanding">
+        <header><strong>Understanding</strong></header>
+        <p>Sympathetically aware of other people's feelings.. that's all it takes to be understanding. Yes, it is a simple concept, but not necessarily easy. You have to be able to put yourself in their shoes. What does that feel like? What would you do in that position? Can you relate? The answer is not always "Yes" but that does not mean you still can't understand what is presented to you.</p>
+        <p>Just because you are understanding does not mean that you agree. You can understand someone's position and disagree with their point of view, or <strong>perspective</strong> (which will be our next section). Agree to disagree and move on. Understanding is key in relation. Sympathize and try to see where that person is coming from. Don't be a wall.</p>
+        <code>Communication + Meaning = Understanding</code>
+        <p>"Understanding comes through communication, and through understanding we find the way to peace." - Ralph C. Smedley</p>
+      </section>
+      <section class="main-section" id="Perspective">
+        <header><strong>Perspective</strong></header>
+        <p>Perspective is a fun one. Why? Because everyone will differ. Two people (or more) can see, listen, even feel the same thing and can have different perspectives. Isn't that wild? Did they not just experience the same thing? We all analyze and understand concepts differently. Even if we can understand their perspective doesn't necessarily mean that we agree with it. This goes back to understanding. You see how all these points of topic align with one another? Mind. Blown.</p>
+        <code>Depth + Understanding = Perspective</code>
+        <p>The main takeaway is that disagreement is inevitable. The way we handle said disagreements is another story. "Everything we see is a perspective, not the truth." - Marcus Aurelius. So, take a second, and come to understand that no two perspectives are the same, even if they're similar.
+        </p>
+        <p>"The greatest tragedy for any human being is going through their entire lives believing the only perspective that matters is their own."- Doug Baldwin</p>
+      </section>
+      <section class="main-section" id="Appreciation">
+        <header><strong>Appreciation</strong></header>
+        <p>Let's bring it all together now with appreciation. "Appreciation" can refer to a feeling of gratitude or admiration, understanding the worth of something, or a rise in value, depending on the context. There are many meanings, but how fitting, no?</p>
+        <p>This may be the most important.. the backbone to the rest. Why? Because when you start appreciating, you see the appreciation. It might not make sense right now and I understand because honestly, it sounds, for lack of better words, dumb. But when you start viewing the world with appreciation, you really bring that positive mindset into your life. Another simple, but not easy, task. Start by appreciating the little things that you may be taking for granted. No matter the person, there is always something to be grateful for. Health? Abundance? Family? Food on your table? A bed? Both arms and legs? All amazing things that may not be a given to someone else.</p>
+        <p>"The unthankful heart discovers no mercies; but the thankful heart will find, in every hour, some heavenly blessings." - Henry Ward Beecher. Look at your life in a positive and things will become positive. See them negatively, and the same unfortunate outcome is true. With appreciation, you will be more kind, more understanding, and will be able to see different perspectives. The foundation of "How to Human," if you ask me.</p>
+        <code>Acknowledgment + Gratitude = Appreciation</code>
+        <p>"Gratitude unlocks the fullness of life. It turns what we have into enough, and more. It turns denial into acceptance, chaos to order, confusion to clarity." - Millie Ward</p>
+      </section>
+    </main>
+  </body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+html, body {
+  min-width: 290px;
+  background-color: #aa77fa;
+  font-family: Cambria;
+  line-height: 1.5;
+  color: #ffff;
+}
+
+#navbar {
+  position: fixed;
+  min-width: 290px;
+  top: 0;
+  left: 0px;
+  width: 300px;
+  height: 100%;
+  border-right: solid;
+  border-color: #ffff;
+}
+
+#navbar ol {
+  height: 88%;
+  padding: 0;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+#navbar a {
+  display: block;
+  padding: 10px 30px;
+  color: #ffff;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#navbar li {
+  color: #ffff;
+  border-top: 1px solid;
+  list-style: none;
+  position: relative;
+  width: 100%;
+}
+
+header {
+  color: #ffff;
+  margin: 10px;
+  text-align: center;
+  font-size: 2em;
+  text-transform: uppercase;
+}
+
+#main-doc header {
+  text-align: left;
+  margin: 0px;
+}
+
+#main-doc {
+  position: absolute;
+  margin-left: 310px;
+  padding: 20px;
+  margin-bottom: 110px;
+}
+
+code {
+  display: block;
+  text-align: center;
+  position: relative;
+  line-height: 2;
+  background-color: #aa77ea;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+section article {
+  color: #ffff;
+  margin: 15px;
+  font-size: 1em;
+}
+
+section {
+  display: block;
+}
+
+@media only screen and (max-width: 815px) {
+  #navbar ol {
+    border: 1px solid;
+    height: 207px;
+  }
+}
+
+@media only screen and (max-width: 815px) {
+  #navbar {
+    background-color: #aa77ea;
+    position: absolute;
+    top: 0;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    max-height: 275px;
+    border: none;
+    z-index: 1;
+    border-bottom: 2px solid;
+  }
+}
+
+@media only screen and (max-width: 815px) {
+  #main-doc {
+    position: relative;
+    margin-left: 0px;
+    margin-top: 270px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  code {
+    margin-left: -20px;
+    width: 100%;
+    padding: 15px;
+    padding-left: 10px;
+    padding-right: 45px;
+    min-width: 233px;
+  }
+}
+
+** end of undefined **
+

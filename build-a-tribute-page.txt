@@ -1,0 +1,86 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <main id="main">
+      <h1 id="title">Albert Einstein</h1>
+      <div class="divider"></div>
+      <p>Albert Einstein profoundly changed physics and ideas about space and time.</p>
+      <figure id="img-div">
+        <img id="image" src="https://i1.wp.com/frugaling.org/wp-content/uploads/2015/07/albert_einstein.jpeg?w=640&ssl=1" alt="A happy Albert Einstein">
+        <figcaption id="img-caption">Two things are infinite: the <strong>universe</strong> and <strong>human stupidity</strong>; and I'm not sure about the universe.
+        </figcaption>
+      </figure>
+      <div class="divider"></div>
+      <section id="tribute-info">
+        <h3>Things you might not know about Albert Einstein:
+        </h3>
+        <ol>
+          <li>Einstein was a hard-headed child.</li>
+          <li>Young Einstein had a hard time speaking.</li>
+          <li>A compass sparked his interest in science.</li>
+          <li>Einstein did not pass his college entrance exam.</li>
+          <li>He was a talented violinist.</li>
+        </ol>
+        <h3><a id="tribute-link" href="https://frugaling.org/albert-einstein-minimalist/" target="_blank">Photo</a> and <a id="tribute-link" href="https://nuttyscientists.com/blog/10-interesting-facts-about-einstein/" target="_blank">Facts</a>.</h3>
+      </section>
+    </main>
+  </body>
+
+** end of undefined **
+
+** start of undefined **
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: rgb(127, 100, 180);
+  color: white;
+}
+
+body {
+  text-align: center;
+  font-family: Georgia, Ariel;
+  font-size: 1.2rem;
+}
+
+#title {
+  text-align: center;
+  padding: 20px;
+}
+
+.divider {
+  border-bottom: 2px solid white;
+}
+
+img {
+  display: block;
+  width: 50%;
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin: 0 auto;
+}
+
+figcaption {
+  margin: 15px 0 5px 0;
+}
+
+section > ol {
+  text-align: left;
+}
+
+#tribute-link {
+  color: white;
+  text-decoration: none;
+}
+
+** end of undefined **
+

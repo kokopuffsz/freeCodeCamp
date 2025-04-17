@@ -1,0 +1,91 @@
+** start of undefined **
+
+<!DOC TYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="styles.css">
+  <h1 id="title">My Survey Project</h1>
+  <p id="description">You can decide if I did a good job!</p>
+  <form id="survey-form">
+    <fieldset>
+      <label for="name" id="name-label">Name: <input id="name" type="text" placeholder="Jane Doe" required />
+      <label for="email" id="email-label">Email: <input id="email" type="email" placeholder="abc@emaildomain.com" required /></label>
+      <label for="number" id="number-label">Age: <input id="number" type="number" placeholder="21" min="0" max="100" /></label>
+    </fieldset>
+    <fieldset>
+      <legend>How do you know me?</legend>
+      <label for="school-option"><input id="school-option" type="radio" name="know-type" value="1" /> School</label>
+      <label for="work-option"><input id="work-option" type="radio" name="know-type" value="2" /> Work</label>
+      <label for="network-option"><input id="network-option" type="radio" name="know-type" value="3" /> Networking</label>
+      <label for="idk-option"><input id="idk-option" type="radio" name="know-type" value="4" /> Who knows</label>
+    </fieldset>
+    <fieldset>
+      <legend>Why are you here?</legend>
+      <label><input value="1" type="checkbox" /> Curiosity</label>
+      <label><input value="2" type="checkbox" /> For Fun</label>
+      <label><input value="3" type="checkbox" /> To Give My Opinion</label>
+      <label><input value="4" type="checkbox" /> Just Because</label>
+      <label><input value="5" type="checkbox" /> No Idea</label>
+    </fieldset>
+    <fieldset>
+      <label for="dropdown">How Did I Do?
+        <select id="dropdown">
+            <option value="">(select one)</option>
+            <option value="1">Pretty good.</option>
+            <option value="2">AMAZING!</option>
+        </select>
+        <label id="add-comment" for="add-comment">Anything you would like to add?
+          <textarea id="add-comment" rows="3" cols="30" placeholder="Keep it up (:"></textarea>
+        </label>
+      </label>
+    </fieldset>
+    <input id="submit" type="submit" value="Wrap it up"></input>
+  </form>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+body {
+  width: 100%;
+  background-color: rgb(127, 150, 127);
+  font-family: Georgia;
+  color: white;
+}
+
+label {
+  display: block;
+}
+
+h1, p {
+  margin: auto;
+  text-align: center;
+}
+
+form {
+  width: 75vw;
+  padding: 3em;
+  margin: 0 auto;
+}
+
+input, textarea, select {
+  margin: 8px 0 0 0;
+  min-height: 1.5em;
+}
+
+input[type="submit"] {
+  display: block;
+  color: white;
+  font-family: Georgia;
+  width: 60%;
+  margin: 1em auto;
+  height: 2em;
+  font-size: 1.1rem;
+  background-color: rgb(127, 150, 127);
+  border-color: white;
+  min-width: 300px;
+}
+
+** end of undefined **
+
